@@ -1,40 +1,122 @@
-    header {
+    div {
       text-align: center;
-      background: url("https://media.giphy.com/media/3o7ZeK1dyNazVE4Mdq/giphy.gif");
-      background-size: cover;
-      color: white;
+      background: url("");
+      background-color: h ;
+      color: black;
+      
     }
     .nav {
       color: white;
     }
     h1 {
-      font-size: 70px;
-      color: black;
+      font-size: 50px;
+      text-align: center;
     }
     img {
-      margin: 40px 0px 0px 0px;
+      url("https://media.giphy.com/media/3o7ZeK1dyNazVE4Mdq/giphy.gif")
+      margin: 25px 50px 75px 100px;
+      border: 7px solid white;
       border-radius: 20px;
+      margin: auto; 
+      display: block;
     }
     ul {
       padding: 10px;
-      background: rgba(0,0,0,0.5);
+      text-align: center;
+      background-color: teal;
     }
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-    div{
+    .project{
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
     }
     @media (max-width: 500px) {
       h1 {
-        font-size: 36px;
+        font-size: 12px;
         padding: 5px;
       }
       li {
         padding: 5px;
-        display: block;
       }
     }
+    
+
+}
+.answers {
+  text-align: left;
+  background-color: teal;
+  
+}
+
+#categorylist {
+  margin-top: 6px;
+  display: block;
+}
+ 
+#category1 {
+  display: none;
+} 
+ #category2 {
+   display: none;
+ }
+
+#category3 {
+  display: none;
+}
+
+#category4 {
+  display: none;
+}
+#category5 {
+  display: none;
+}
+#category6 {
+  display: none;
+}
+#category7 {
+  display: none;
+}
+#category8 {
+  display: none;
+}
+#category9 {
+  display: none;
+}
+#category10 {
+display: none;
+}
+#category11 {
+  display: none;
+}
+#closing {
+  display: none;
+  font-style: italic;
+}
+#results {
+  color: #ffff;
+  cursor: pointer;
+  border: 1px solid gray;
+  padding: 3px
+}
+.box {
+  background-color: cornflowerblue;
+  height: 250px;
+  width: 55%
+  
+}
+.box{
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    border: 10px double white;
+    margin: 40px;
+    background-color: blue; 
+}
+
+
+
+
